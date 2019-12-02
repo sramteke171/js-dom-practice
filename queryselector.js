@@ -38,6 +38,7 @@ let a = document.querySelectorAll("div > a");
 console.log("query selector a: ", a);
 
 // 7. Select all elements that contain a "data-target" attribute
+// [data-target] is the attribute name and must be in brackets []
 const dataTarget = document.querySelectorAll(`[data-target]`);
 console.log("this is dataTarget", dataTarget);
 // 8. Select all elements where the data-target attribute equals "#false"
